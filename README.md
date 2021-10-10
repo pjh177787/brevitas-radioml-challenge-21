@@ -32,7 +32,7 @@ The sandbox was tested on Ubuntu, but the containerized setup should work on mos
 
 1. Run `./run_docker.sh` inside `sandbox/` to launch the Jupyter notebook server.
 2. Connect to `http://HOSTNAME:JUPYTER_PORT` from a browser and login with password "radioml".
-3. Run `./sandbox/notebooks/evaluation_only.ipynb` for evaluation.
+3. Run `./sandbox/notebooks/evaluation_only.ipynb` with pre-trained model `IlliNet_trained.pth` for evaluation.
 
 ## Training
 
